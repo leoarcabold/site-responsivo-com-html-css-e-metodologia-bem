@@ -2,6 +2,7 @@
   height: 100px;
   border-bottom: 1px solid #ccc;
 }
+
 .layout-cabecalho--home {
   background-color: #fff;
   position: fixed;
@@ -26,13 +27,14 @@
 
   margin-top: 80px;
 
-  background-color: #7ab55c;
+  background-color: #2D5BAD;
 }
 
 .layout-depoimento {
   padding: 80px 0;
   background-color: #e7e7e7;
 }
+
 .layout-rodape {
   padding: 40px 0;
   background-color: #484848;

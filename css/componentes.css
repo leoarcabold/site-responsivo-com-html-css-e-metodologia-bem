@@ -12,7 +12,7 @@
   margin: -10px;
   margin-bottom: 0;
 
-  background-color: #95a4a5;
+  background-color: #2D5BAD;
   color: #fff;
 
   text-align: center;
@@ -68,21 +68,21 @@
 }
 
 .botao--assinar {
-  background-color: #127d00;
+  background-color: #FF8247;
 }
 
 .botao--assinar:hover, .botao--assinar:focus {
-  background-color: #0e6400;
+  background-color: #E84F00;
 }
 
 .botao--principal {
   border-radius: 10px;
 
-  background-color: #004b86;
+  background-color: #E84F00;
 }
 
 .botao--principal:hover, .botao--principal:focus {
-  background-color: #003b6a;
+  background-color: #FF8247;
 }
 
 
