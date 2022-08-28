@@ -244,21 +244,28 @@
   MENU
 \*--------------------*/
 .menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
 
-  width: 200px;
   margin: 0;
-  padding: 20px;
-  border-right: 1px solid #eee;
 
   font-size: 1.4rem;
-  background-color: #fbfbfb;
 
   list-style: none;
 }
+
+@media (max-width: 991px) {
+
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #eee;
+
+    background-color: #fbfbfb;
+  }  
 
 .menu__item {
   display: block;
@@ -268,5 +275,21 @@
 
 .menu__item--botao {
   margin-top: 20px;
+
+}
+
+}
+
+@media (min-width: 992px) {
+
+  .menu__item {
+    display: inline-block;
+
+    padding-right: 20px;
+  }
+
+  .menu__item:last-of-type {
+    padding-right: 0px;
+  }
 
 }
