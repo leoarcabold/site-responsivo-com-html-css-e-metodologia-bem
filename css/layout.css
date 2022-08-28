@@ -1,5 +1,6 @@
 .layout-cabecalho {
   height: 100px;
+  line-height: 60px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -14,12 +15,14 @@
   z-index: 1;
 }
 
-.layout-cabecalho img {
-  margin-top: 12px;
-}
-
 .layout-planos {
   padding: 80px 0;
+}
+
+@media (max-width: 749px){
+.layout-planos .row > div:not(.ultima-coluna) {
+  margin-bottom: 40px;
+}
 }
 
 .layout-chamada {

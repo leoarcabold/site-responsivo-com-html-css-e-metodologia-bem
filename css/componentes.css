@@ -33,8 +33,8 @@
   margin: -10px;
   margin-bottom: 0;
 
-  background-color: #2D5BAD;
-  color: #fff;
+  background-color: #e3e829;
+  color: #313131;
 
   text-align: center;
   line-height: 2.5;
@@ -77,6 +77,7 @@
   background-color: #bbb;
   color: #fff;
 
+  line-height: normal;
   font-size: 1em;
   text-decoration: none;
 }
@@ -88,13 +89,16 @@
   text-decoration: none;
 }
 
-.botao--assinar {
-  background-color: #FF8247;
-}
-
-.botao--assinar:hover, .botao--assinar:focus {
+.botao--assinar, .botao--login {
   background-color: #E84F00;
 }
+
+.botao--assinar:hover, .botao--assinar:focus,
+.botao--login:hover, .botao--login:focus {
+  background-color: #FF8247;
+  color: #fff;
+}
+
 
 .botao--principal {
   border-radius: 10px;
@@ -164,11 +168,28 @@
 }
 
 .depoimento > blockquote {
+  position: relative;
+
   margin: 0;
   padding: 0 60px;
 
   text-align: center;
   font-size: 1em;
+}
+
+.depoimento > blockquote::before {
+  position: absolute;
+  left: 0;
+  top: -0.35em;
+
+  color: #ccc;
+
+  font-size: 8em;
+
+  content: "\201C";
+
+
+
 }
 
 .depoimento__autor {
@@ -184,4 +205,68 @@
 
 .depoimento__autor > p {
   margin-top: 10px;
+}
+
+/*--------------------*\
+  NAVEGACAO
+\*--------------------*/
+.barra-navegacao {
+  outline: none;
+}
+
+.barra-navegacao__menu {
+  float: right;
+}
+
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
+.botao-chaveador {
+  width: 24px;
+  height: 24px;
+
+  border: 0;
+
+  background: none;
+  background-image: url("../img/bars.png");
+
+  outline: none;
+
+}
+
+@media(min-width: 992px){
+  .botao-chaveador {
+    display: none;
+  }
+}
+
+/*--------------------*\
+  MENU
+\*--------------------*/
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 200px;
+  margin: 0;
+  padding: 20px;
+  border-right: 1px solid #eee;
+
+  font-size: 1.4rem;
+  background-color: #fbfbfb;
+
+  list-style: none;
+}
+
+.menu__item {
+  display: block;
+  line-height: 3em;
+
+}
+
+.menu__item--botao {
+  margin-top: 20px;
+
 }
