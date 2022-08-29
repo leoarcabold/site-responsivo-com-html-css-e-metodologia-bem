@@ -335,7 +335,7 @@
   margin-bottom: 15px;
 }
 
-.grupo-entrada > label {
+.grupo-entrada>label {
   display: block;
   font-weight: bold;
 }
@@ -345,6 +345,14 @@
 \*--------------------*/
 .campo {
   display: block;
-
   width: 100%;
+  height: 2.5em;
+
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #fff;
+
+  font-size: 1.4rem;
 }
