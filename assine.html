@@ -32,17 +32,76 @@
                 <h1 class="titulo-formulario">Sua assinatura money care</h1>
                 <div class="grupo-entrada">
                     <label for="razao-social">Razão social</label>
-                    <input class="campo" id="razao-social" type="text">
+                    <input class="campo" id="razao-social" type="text" required>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cnpj">CNPJ</label>
+                            <input class="campo" id="cnpj" type="text" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="data-nascimento">Data de fundação</label>
+                            <input class="campo" id="data-nascimento" type="date" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grupo-entrada">
+                    <label for="responsavel">Responsável</label>
+                    <input class="campo" id="responsavel" type="text" required>
                 </div>
                 <div class="grupo-entrada">
-                    <label for="cnpj">CNPJ</label>
-                    <input class="cnpj" id="cnpj" type="text">
+                    <label for="email">E-mail</label>
+                    <input class="campo" id="email" type="email" required>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="estado">Estado</label>
+                            <select id="estado" class="campo">
+                                <option>Selecione</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="MG">Minas Gerais</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cidade">Cidade</label>
+                            <select id="cidade" class="campo">
+                                <option>Selecione</option>
+                                <option value="1">São Paulo</option>
+                                <option value="2">Rio de Janeiro</option>
+                                <option value="3">Belo Horizonte</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="senha">Senha</label>
+                            <input class="campo" id="senha" type="password" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="confirmacao-senha">Confirme a senha</label>
+                            <input class="campo" id="confirmacao-senha" type="password" required>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div style="text-align:center; margin-top: 40px">
                     <input type="submit" value="Assinar money care" class="botao  botao--principal">
                 </div>
+
+
             </form>
 
         </diV>
