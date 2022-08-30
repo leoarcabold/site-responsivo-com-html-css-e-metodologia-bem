@@ -34,7 +34,7 @@
   margin: -10px;
   margin-bottom: 0;
 
-  background-color: #e3e829;
+  background-color: #eee;
   color: #313131;
 
   text-align: center;
@@ -76,7 +76,7 @@
   padding: 0.8em 1.2em;
 
   background-color: #bbb;
-  color: #fff;
+  color: #1F2044;
   border: none;
 
   line-height: normal;
@@ -87,34 +87,34 @@
 .botao:hover,
 .botao:focus {
   background-color: #aaa;
-  color: #fff;
+  color: #1F2044;
 
   text-decoration: none;
 }
 
 .botao--assinar,
 .botao--login {
-  background-color: #E84F00;
+  background-color: #30B47A;
 }
 
 .botao--assinar:hover,
 .botao--assinar:focus,
 .botao--login:hover,
 .botao--login:focus {
-  background-color: #FF8247;
-  color: #fff;
+  background-color: #FFE57D;
+  color: #1F2044;
 }
 
 
 .botao--principal {
   border-radius: 10px;
 
-  background-color: #E84F00;
+  background-color: #FFCF00;
 }
 
 .botao--principal:hover,
 .botao--principal:focus {
-  background-color: #FF8247;
+  background-color: #FFE57D;
 }
 
 
@@ -355,4 +355,19 @@
   background-color: #fff;
 
   font-size: 1.4rem;
+}
+
+/*--------------------*\
+  REDES
+\*--------------------*/
+.redes {
+  position: relative;
+}
+
+.redes__item {
+  display: inline-block;
+  
+  margin-right: 10px;
+  margin-left: 10px;
+
 }
