@@ -160,6 +160,36 @@
   }
 }
 
+/*--------------------*\
+  COMO FUNCIONA
+\*--------------------*/
+.como-funciona {
+  font-size: 2.2rem;
+  /* 22px */
+}
+
+@media(min-width: 992px) {
+  .como-funciona {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-size: 2.8rem;
+  }
+}
+
+.como-funciona__conteudo {
+  position: relative;
+  margin-top: 20%;
+  margin-bottom: 20%;
+
+  padding: 0 30px;
+
+  background-image: url("img/money.jpg") ;
+
+  text-align: justify;
+  font-size: 1em;
+}
+
 
 /*--------------------*\
   DEPOIMENTO
@@ -366,7 +396,7 @@
 
 .redes__item {
   display: inline-block;
-  
+
   margin-right: 10px;
   margin-left: 10px;
 
