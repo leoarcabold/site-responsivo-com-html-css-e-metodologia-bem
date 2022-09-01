@@ -117,6 +117,19 @@
   background-color: #FFE57D;
 }
 
+.planos {
+  position: relative;
+  margin: 0;
+  margin-bottom: -80px;
+  height: 300px;
+
+  padding: 5% 0;
+}
+.planos__item {
+  color: #1F2044;
+  text-align: center;
+  font-size: 3.2rem;
+}
 
 /*--------------------*\
   CHAMADA
@@ -163,40 +176,55 @@
 /*--------------------*\
   COMO FUNCIONA
 \*--------------------*/
-.como-funciona {
+.layout-como-funciona {
+  background-image: url("../img/fundo-como-funciona.jpg");
+  background-size: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.como-funciona--conteudo {
+  padding: 10%;
+  text-align: justify;
   font-size: 2.2rem;
-  /* 22px */
+  
+  line-height: 1.9;
+  
+  color: #000;
+
+
+  background-color: rgba(255, 255, 255, 0.90);
 }
 
 @media(min-width: 992px) {
-  .como-funciona {
+  .como-funciona--conteudo {
     padding-left: 15%;
     padding-right: 15%;
 
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 }
 
-.como-funciona__conteudo {
-  position: relative;
-  margin-top: 20%;
-  margin-bottom: 20%;
+.como-funciona__item {
+  margin: 0;
+  padding-bottom: 30px;
 
-  padding: 0 30px;
+  color: #1F2044;
 
-  background-image: url("img/money.jpg") ;
+  font-size: 3.2rem; 
+  line-height: 0.9;
+  text-shadow: 1px 1px #7e7d7b;
 
-  text-align: justify;
-  font-size: 1em;
 }
+
 
 
 /*--------------------*\
   DEPOIMENTO
 \*--------------------*/
 .depoimento {
-  font-size: 2.2rem;
-  /* 22px */
+  font-size: 2.2rem;  /* 22px */
 }
 
 @media(min-width: 992px) {
@@ -215,7 +243,7 @@
   padding: 0 60px;
 
   text-align: center;
-  font-size: 1em;
+  font-size: 2.2rem;
 }
 
 .depoimento>blockquote::before {
@@ -228,9 +256,6 @@
   font-size: 8em;
 
   content: "\201C";
-
-
-
 }
 
 .depoimento__autor {
@@ -307,7 +332,8 @@
     bottom: 0;
 
     display: none;
-    width: 200px;
+    width: 180px;
+    height: 100%;
     padding: 20px;
     border-right: 1px solid #eee;
 
