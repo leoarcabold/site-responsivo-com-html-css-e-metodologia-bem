@@ -25,16 +25,16 @@
           <button class="botao-chaveador  menu--exibindo  js-botao-chaveador"> </button>
 
           <ul class="menu  js-menu">
-            <li class="menu__item">
-              <a href="#">Como funciona</a>
+            <li class="menu__item  js-menu__item">
+              <a href="#como-funciona">Como funciona</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item  js-menu__item">
               <a href="#planos">Planos e preços</a>
             </li>
-            <li class="menu__item">
+            <li class="menu__item  js-menu__item">
               <a href="assine.html">Contato</a>
             </li>
-            <li class="menu__item  menu__item--botao">
+            <li class="menu__item  menu__item--botao  js-menu__item">
               <a href="#" class="botao  botao--login">Login</a>
             </li>
           </ul>
@@ -60,25 +60,28 @@
 
     </div>
   </section>
-
-  <div class="container">
-
-    <div class="como-funciona">
-      <div class="como-funciona__conteudo">
-        Money Care é um software simples, fácil e útil para controle das finanças de pequenos negócios. Com ele você
-        simplifica a gestão de suas receitas e despesas e pode verificar rapidamente sua situação financeira, para o mês
-        atual e próximos meses. Além disso, você conta com uma série de relatórios para uma análise detalhada de suas
+  <div id="como-funciona" class="layout-como-funciona">
+      <div class="como-funciona--conteudo">
+        <p class="como-funciona__item">Como funciona</p>
+        Money Care é um software simples, fácil e útil para controle das finanças de pequenos negócios. Com ele
+        você
+        simplifica a gestão de suas receitas e despesas e pode verificar rapidamente sua situação financeira, para
+        o
+        mês
+        atual e próximos meses. Além disso, você conta com uma série de relatórios para uma análise detalhada de
+        suas
         movimentações, seja por categoria, conta, mês e muito mais.
-        O software também traz opção de configurar alarmes para não esquecer de pagar contas, opção de investimentos e
+        O software também traz opção de configurar alarmes para não esquecer de pagar contas, opção de
+        investimentos
+        e
         ainda pode ser bloqueado por senha.
         O design do Money Care é surpreendente para um software de finanças de pequenos negócios: seus gráficos
-        coloridos e minimalistas, muito bem-elaborados, combinados com uma arquitetura excelente, tornam a experiência
+        coloridos e minimalistas, muito bem-elaborados, combinados com uma arquitetura excelente, tornam a
+        experiência
         de uso única.
       </div>
     </div>
 
-  </div>
-  </div>
 
   <div class="layout-depoimento">
     <div class="container">
@@ -97,91 +100,86 @@
 
     </div>
   </div>
+<div class="planos"><p id="planos" class="planos__item">Escolha o plano ideal para sua empresa!</p></div>
+  <div class="layout-planos">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
 
-  <div class="layout-como-funciona">
+          <article class="plano">
+            <h2 class="plano__cabecalho">Autônomo</h2>
+            <div class="plano__preco">R$59/mês</div>
+            <ul class="plano__caracteristicas">
+              <li>Até <strong>2 usuários</strong></li>
+              <li><strong>500MB</strong> de armazenamento</li>
+              <li>Lançamentos ilimitados</li>
+              <li>Acesso seguro</li>
+              <li>Sem fidelidade</li>
+            </ul>
+            <footer class="plano__rodape">
+              <a href="assine.html" class="botao  botao--assinar">Assinar</a>
+            </footer>
+          </article>
 
+        </div>
+        <div class="col-sm-4">
 
+          <article class="plano  plano--mais-popular">
+            <h2 class="plano__cabecalho">Micro</h2>
+            <div class="plano__preco">R$89/mês</div>
+            <ul class="plano__caracteristicas">
+              <li>Até <strong>6 usuários</strong></li>
+              <li><strong>1GB</strong> de armazenamento</li>
+              <li>Lançamentos ilimitados</li>
+              <li>Acesso seguro</li>
+              <li>Sem fidelidade</li>
+            </ul>
+            <footer class="plano__rodape">
+              <a href="assine.html" class="botao  botao--assinar">Assinar</a>
+            </footer>
+          </article>
 
+        </div>
+        <div class="col-sm-4  ultima-coluna">
 
-    <div id="planos" class="layout-planos">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
+          <article class="plano">
+            <h2 class="plano__cabecalho">Pequena</h2>
+            <div class="plano__preco">R$99/mês</div>
+            <ul class="plano__caracteristicas">
+              <li>Até <strong>10 usuários</strong></li>
+              <li><strong>5GB</strong> de armazenamento</li>
+              <li>Lançamentos ilimitados</li>
+              <li>Acesso seguro</li>
+              <li>Sem fidelidade</li>
+            </ul>
+            <footer class="plano__rodape">
+              <a href="assine.html" class="botao  botao--assinar">Assinar</a>
+            </footer>
+          </article>
 
-            <article class="plano">
-              <h2 class="plano__cabecalho">Autônomo</h2>
-              <div class="plano__preco">R$59/mês</div>
-              <ul class="plano__caracteristicas">
-                <li>Até <strong>2 usuários</strong></li>
-                <li><strong>500MB</strong> de armazenamento</li>
-                <li>Lançamentos ilimitados</li>
-                <li>Acesso seguro</li>
-                <li>Sem fidelidade</li>
-              </ul>
-              <footer class="plano__rodape">
-                <a href="assine.html" class="botao  botao--assinar">Assinar</a>
-              </footer>
-            </article>
-
-          </div>
-          <div class="col-sm-4">
-
-            <article class="plano  plano--mais-popular">
-              <h2 class="plano__cabecalho">Micro</h2>
-              <div class="plano__preco">R$89/mês</div>
-              <ul class="plano__caracteristicas">
-                <li>Até <strong>6 usuários</strong></li>
-                <li><strong>1GB</strong> de armazenamento</li>
-                <li>Lançamentos ilimitados</li>
-                <li>Acesso seguro</li>
-                <li>Sem fidelidade</li>
-              </ul>
-              <footer class="plano__rodape">
-                <a href="assine.html" class="botao  botao--assinar">Assinar</a>
-              </footer>
-            </article>
-
-          </div>
-          <div class="col-sm-4  ultima-coluna">
-
-            <article class="plano">
-              <h2 class="plano__cabecalho">Pequena</h2>
-              <div class="plano__preco">R$99/mês</div>
-              <ul class="plano__caracteristicas">
-                <li>Até <strong>10 usuários</strong></li>
-                <li><strong>5GB</strong> de armazenamento</li>
-                <li>Lançamentos ilimitados</li>
-                <li>Acesso seguro</li>
-                <li>Sem fidelidade</li>
-              </ul>
-              <footer class="plano__rodape">
-                <a href="assine.html" class="botao  botao--assinar">Assinar</a>
-              </footer>
-            </article>
-
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="layout-rodape">
-      <div class="container">
-        <div class="redes">
-          <div class="redes__item">
-            <a href="https://github.com/leoarcabold" target="_blank" rel="noopener noreferrer"><img src="img/github.png"
-                width="24" height="24" alt="GitHub"> </a>
-          </div>
-          <div class="redes__item">
-            <a href="https://www.linkedin.com/in/leoarcabold" target="_blank"><img src="img/linkedin.png" width="24"
-                height="24" alt="LinkedIn"></a>
-          </div>
+  <footer class="layout-rodape">
+    <div class="container">
+      <div class="redes">
+        <div class="redes__item">
+          <a href="https://github.com/leoarcabold" target="_blank" rel="noopener noreferrer"><img src="img/github.png"
+              width="24" height="24" alt="GitHub"> </a>
         </div>
-        <p>&copy;money care. Todos os direitos reservados.</p>
+        <div class="redes__item">
+          <a href="https://www.linkedin.com/in/leoarcabold" target="_blank"><img src="img/linkedin.png" width="24"
+              height="24" alt="LinkedIn"></a>
+        </div>
       </div>
+      <p>&copy;money care. Todos os direitos reservados.</p>
+    </div>
 
-    </footer>
+  </footer>
 
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
