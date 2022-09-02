@@ -4,3 +4,13 @@ compartilhamento de código no desenvolvimento front-end. Além disso, essa prá
 com mais eficiência, rapidez e qualidade, apoiando todos os envolvidos no projeto. A metodologia BEM prioriza 
 com ênfase o adoção de 'classes' em lugar de IDs, por serem reutilizáveis. Essa metodologia é utilizada 
 seguindo técnicas que facilitam a construção do código.
+
+Para saber mais sobre a metodologia BEM acesse:
+
+> https://en.bem.info/methodology/
+
+> http://getbem.com/
+
+<img src="https://github.com/leoarcabold/site-responsivo-com-html-css-e-metodologia-bem/blob/0a34250be94a1dbb23cc6dbc2fad7967f2f74415/img/site-desktop.jpg" width="400px"> 
+
+<img src="https://github.com/leoarcabold/site-responsivo-com-html-css-e-metodologia-bem/blob/0a34250be94a1dbb23cc6dbc2fad7967f2f74415/img/site-phone.jpg" width="200px">
