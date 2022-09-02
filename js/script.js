@@ -10,3 +10,4 @@ alternadorItem.onclick = function () {
     var menuItem = document.querySelector('.js-menu');
     menuItem.classList.toggle('menu--exibindo');
 }
+
