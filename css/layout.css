@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .layout-cabecalho {
   height: 100px;
   line-height: 60px;
